@@ -41,3 +41,6 @@ header .brand-image{display:block;width:auto;height:64px;max-width:min(350px,75v
 .hero-art img{max-width:600px!important;width:100%!important;height:auto!important;object-fit:contain!important}
 @media(max-width:900px){.hero-art{width:100%!important;max-width:600px!important}.hero-art img{max-width:600px!important}}
 @media(max-width:620px){header .brand-image{height:48px;max-width:76vw}.hero-art{width:100%!important;max-width:100%!important}.hero-art img{max-width:100%!important}}
+
+/* Hero image fine-tuning after visual review */
+@media(min-width:901px){.hero>.wrap{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:20px!important}.hero-art{width:112%!important;max-width:700px!important;transform:translateX(-2%)!important;justify-self:center!important}.hero-art img{width:100%!important;max-width:700px!important}}
