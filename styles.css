@@ -33,3 +33,11 @@ header .brand::before,header .brand::after{display:none!important;content:none!i
 header .brand-swt{color:#f6e0a4;background:linear-gradient(180deg,#fff4c9,#e8b95c 75%,#bd8835);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
 header .brand-driver{color:#e4bb6a;letter-spacing:.075em}
 @media(max-width:620px){header .brand{font-size:1.55rem!important;gap:.23em!important}}
+
+/* Uploaded approved image logo and restored larger Toyota illustration */
+header .brand.brand-image-link{display:inline-flex!important;align-items:center!important;background:none!important;filter:none!important;text-shadow:none!important;line-height:1!important;max-width:100%}
+header .brand-image{display:block;width:auto;height:64px;max-width:min(350px,75vw);object-fit:contain;object-position:left center}
+.hero-art{max-width:600px!important;width:112%!important;overflow:visible!important;justify-self:center!important}
+.hero-art img{max-width:600px!important;width:100%!important;height:auto!important;object-fit:contain!important}
+@media(max-width:900px){.hero-art{width:100%!important;max-width:600px!important}.hero-art img{max-width:600px!important}}
+@media(max-width:620px){header .brand-image{height:48px;max-width:76vw}.hero-art{width:100%!important;max-width:100%!important}.hero-art img{max-width:100%!important}}
