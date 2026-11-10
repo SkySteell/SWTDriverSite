@@ -26,3 +26,10 @@ header .brand-logo{width:60px!important;height:60px!important;flex:0 0 60px!impo
 .hero>.wrap{padding:62px 0}
 @media(max-width:900px){.hero>.wrap{grid-template-columns:1fr}.hero-art{max-width:480px!important}.hero-art img{max-width:480px!important}}
 @media(max-width:620px){header .brand{font-size:1.5rem!important;gap:8px!important}header .brand-logo{width:44px!important;height:44px!important;flex-basis:44px!important}.hero-art{width:100%!important;max-width:100%!important;margin:0 auto!important}.hero-art img{max-width:100%!important}.hero>.wrap{padding:42px 0}}
+
+/* Approved clean SWT Driver wordmark: no circular icon, diamond or decorative frame */
+header .brand{display:inline-flex!important;align-items:baseline!important;gap:.28em!important;font-family:Impact,"Arial Black","Arial Narrow",sans-serif!important;font-style:normal!important;font-size:clamp(1.65rem,2.6vw,2.4rem)!important;font-weight:900!important;line-height:1!important;letter-spacing:.035em!important;text-transform:uppercase!important;background:none!important;-webkit-background-clip:initial!important;background-clip:initial!important;-webkit-text-fill-color:initial!important;color:#edc77c!important;text-shadow:none!important;filter:none!important;white-space:nowrap}
+header .brand::before,header .brand::after{display:none!important;content:none!important}
+header .brand-swt{color:#f6e0a4;background:linear-gradient(180deg,#fff4c9,#e8b95c 75%,#bd8835);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+header .brand-driver{color:#e4bb6a;letter-spacing:.075em}
+@media(max-width:620px){header .brand{font-size:1.55rem!important;gap:.23em!important}}
